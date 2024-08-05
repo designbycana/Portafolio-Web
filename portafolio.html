@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logoIcono.png">
+  </head>
+  <body>
+
+<!----------------- ICONO Y MENU ------------------->
+
+    <header class="container-fluid contenedorHeader">
+        <div class="row">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 logo">
+                <a href="/index.html">
+                    <img src="images/logo.png" alt="" class="imagenLogo">
+                </a>
+            </div>
+
+            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-8"><!--  BLANCO --></div>
+
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-2 menu" id="tituloPortafolio">
+                <a href="#">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="images/menu.png" alt="" class="imagenMenu">
+                    </button>
+                </a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <nav>
+                            <li><a href="/index.html" class="botonesMenu">Inicio</a></li>
+                            <li><a href="/sobremi.html" class="botonesMenu">Sobre mí</a></li>
+                            <li><a href="/portafolio.html" class="botonesMenu">Portafolio</a></li>
+                            <li><a href="/blog.html" class="botonesMenu">Blog</a></li>
+                            <li><a href="/contacto.html" class="botonesMenu">Contacto</a></li>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </header>
+
+<!----------------- INTRODUCCION ------------------->
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 hola">
+            <img src="images/portafolio.png" alt="" class="imagenTitulo">
+            </div>
+        </div>
+    </section>
+
+<!----------------- CUERPO ------------------->
+
+    <div class="row">
+        <div class="col-3 col-xxl-3 col-xl-3 col-lg-1 col-md-1"></div>
+        <div class="col-6 col-xxl-6 col-xl-6 col-lg-10 col-md-10 col-sm-10 cajaCajaMenuPortafolio">
+            <div class="row">
+                <div class="col-4 cajaMenuPortafolio">
+                    <a href="#fotomontaje" class="botonesPortafolio">Fotomontaje</a>
+                </div>
+                <div class="col-4 cajaMenuPortafolio">
+                    <a href="#video" class="botonesPortafolio">Video</a>
+                </div>
+                <div class="col-4 cajaMenuPortafolio">
+                    <a href="#publicidad" class="botonesPortafolio">Publicidad</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-3 col-xxl-3 col-xl-3 col-lg-1 col-md-1"></div>
+    </div>
+
+<!----------------- FOTOMONTAJE ------------------->
+
+    <div class="row">
+        <div class="col-12 tituloSeccionesPortafolio" id="fotomontaje">
+            Fotomontaje
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 "></div>
+
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+<!--                     <div class="col-2 textoTituloTrabajo">
+                        <h3 class="textoTituloTrabajoProyecto"><strong>YELLOW & BLUE MELTING</strong></h3>
+                    </div> -->
+                    <div class="col-11 cajaFotoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>MELTING</strong></h3>
+                        </div>
+                        <img src="images/sanmelting.png" alt="" class="fotoTrabajo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-4 descripcionTrabajo">
+                        Año: 2024
+                        <br>
+                        Software: Illustrator/Photoshop
+                        <br>
+                        Descripción: Edición hecha principalmente en photoshop. El texto del fondo fue hecho en illustrator y terminado en PS gracias a un tutorial de Youtube.
+                    </div>
+                    <div class="col-6 procesoTrabajo">
+                        <video src="images/MAKINGSANMELTING.mp4" autoplay loop class="videoProceso"></video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1  botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 "></div>
+
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11 cajaFotoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>UNDERWATER</strong></h3>
+                        </div>
+                        <img src="images/Hongjoongunderwater.jpg" alt="" class="fotoTrabajo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-4 descripcionTrabajo">
+                        Año: 2024
+                        <br>
+                        Software: Photoshop
+                        <br>
+                        Descripción: Se utilizaron imágenes de uso gratuito de google y pinterest. Inspirado en el mundo acuático.
+                    </div>
+                    <div class="col-6 procesoTrabajo">
+                        <video src="images/HongjoongUnderwatermaking.mp4" autoplay loop class="videoProceso"></video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1  botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 "></div>
+
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11 cajaFotoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>RENAISSANCE</strong></h3>
+                        </div>
+                        <img src="images/yeonaissance.jpg" alt="" class="fotoTrabajo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-4 descripcionTrabajo">
+                        Año: 2024
+                        <br>
+                        Software: Photoshop
+                        <br>
+                        Descripción: Edición inspirada en las obras renacentistas. Se tomó como base el cuadro de Bartolomeo Cavarozzi: Virgen y el Niño con ángeles 1620.
+
+                    </div>
+                    <div class="col-6 procesoTrabajo">
+                        <video src="images/MAKING YEONAISSENCE.mp4" autoplay loop class="videoProceso"></video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1  botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+<!----------------- VIDEO ------------------->
+
+        <div class="col-12 tituloSeccionesPortafolio" id="video">Video</div>
+
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 "></div>
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11 cajaVideoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>I NEVER EXISTED</strong></h3>
+                        </div>
+                        <video src="images/neverexisted.mp4" controls poster="images/portadaneverexisted.png" class="videoEdit"></video>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8 descripcionTrabajo">
+                        Año: 2023
+                        <br>
+                        Software: Vegas pro 17.0
+                        <br>
+                        Descripción: Edición de la serie coreana IMITATION junto a la canción I Never Existed de Chase Atlantic.
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1  botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 "></div>
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11 cajaVideoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>DANCE WITH U</strong></h3>
+                        </div>
+                        <video src="images/scifi.mp4" controls poster="images/portadascifi.png" class="videoEdit"></video>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8 descripcionTrabajo">
+                        Año: 2023
+                        <br>
+                        Software: Vegas pro 17.0
+                        <br>
+                        Descripción: Edición con videoclip oficial de ATEEZ junto a la canción Sci-fi de EDEN.
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1  botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 "></div>
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11 cajaVideoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>I´M INTO IT</strong></h3>
+                        </div>
+                        <video src="images/intoit.mp4" controls poster="images/portadaintoit.png" class="videoEdit"></video>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8 descripcionTrabajo">
+                        Año: 2023
+                        <br>
+                        Software: Vegas pro 17.0
+                        <br>
+                        Descripción: Edición hecha con videoclip oficial de ATEEZ junto a la cancion Into It de Chase Atlantic.
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1  botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+<!----------------- PUBLICIDAD ------------------->
+
+        <div class="col-12 tituloSeccionesPortafolio" id="publicidad">Publicidad</div>
+
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1"></div>
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11 cajaFotoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>AVIONES DE GUERRA</strong></h3>
+                        </div>
+                        <img src="images/qhuboaviones.png" alt="" class="fotoTrabajo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8 descripcionTrabajo">
+                        Año: 2021
+                        <br>
+                        Software: Illustrator/Photoshop
+                        <br>
+                        Descripción: Pieza para impresión periódico Q’hubo de campaña Colección de Aviones de Guerra.
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 "></div>
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-11 cajaFotoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>KIT DE HERRAMIENTAS</strong></h3>
+                        </div>
+                        <img src="images/qhuboherramientas.png" alt="" class="fotoTrabajo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8 descripcionTrabajo">
+                        Año: 2021
+                        <br>
+                        Software: Illustrator/Photoshop
+                        <br>
+                        Descripción:  Pieza para impresión periódico Q’hubo de campaña Kit de herramientas.
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1  botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1 "></div>
+            <div class="col-8 col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10 contenedorTrabajos">
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-10 cajaFotoTrabajo">
+                        <div class="col-2 textoTituloTrabajo">
+                            <h3 class="textoTituloTrabajoProyecto"><strong>CUENTA TIKTOK Q'HUBO</strong></h3>
+                        </div>
+                        <video src="images/celular.mp4" autoplay loop class="videoEdit"></video>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8 descripcionTrabajo">
+                        Año: 2021
+                        <br>
+                        Software: Illustrator/Photoshop
+                        <br>
+                        Descripción:  Pieza para RRSS (Instagram) periódico Q’hubo llamado a cuenta de Tiktok.
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="col-2 col-xxl-3 col-xl-3 col-lg-2 col-md-2 col-sm-1  botonSubirPortafolio">
+                <a href="#tituloPortafolio" role="button">
+                    <img src="images/subir.png" alt="" class="imagenBotonSubirPortafolio">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+
+
+    </div>
+
+    
+<!----------------- FOOTER ------------------->
+
+    <footer class="row cajaFooter">
+            <div class="col-12 footer">
+                PORTAFOLIO | CAROL NATALIA GUTIÉRREZ | PRODUCCIÓN MULTIMEDIA | 2024
+            </div>
+    </footer>
+    
+
+<!----------------- BOOTSTRAP ------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!----------------- BOOTSTRAP ------------------->
+
+  </body>
+</html>

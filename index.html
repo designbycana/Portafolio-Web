@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logoIcono.png">
+  </head>
+  <body>
+
+<!----------------- ICONO Y MENU ------------------->
+
+    <header class="container-fluid contenedorHeader">
+        <div class="row">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 logo">
+                <a href="/index.html">
+                    <img src="images/logo.png" alt="" class="imagenLogo">
+                </a>
+            </div>
+
+            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-8"><!-- ESPACIO BLANCO --></div>
+
+            <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-2 menu">
+                <a href="#">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="images/menu.png" alt="" class="imagenMenu">
+                    </button>
+                </a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <nav>
+                            <li><a href="/index.html" class="botonesMenu">Inicio</a></li>
+                            <li><a href="/sobremi.html" class="botonesMenu">Sobre mí</a></li>
+                            <li><a href="/portafolio.html" class="botonesMenu">Portafolio</a></li>
+                            <li><a href="/blog.html" class="botonesMenu">Blog</a></li>
+                            <li><a href="/contacto.html" class="botonesMenu">Contacto</a></li>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </header>
+
+<!----------------- INTRODUCCION ------------------->
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 hola">
+            <img src="images/hola.png" alt="" class="imagenTitulo">
+            </div>
+            <div class="col-12 introduccionTexto">
+                <p class="introduccionTexto">Soy <strong class="introduccionTexto">Carol Gutiérrez</strong>, pero puedes decirme <strong class="introduccionTexto">Cana.</strong></p>
+                <p class="introduccionTexto">Soy productora y diseñadora multimedia.</p>
+            </div>
+        </div>
+    </section>
+
+<!----------------- DISEÑOS RECIENTES ------------------->
+    <div class="row">
+        <div class="col-12 cajaTituloDiseñosRecientes">
+            <strong><p class="tituloDiseñosRecientes">Diseños recientes</p></strong>
+        </div>
+    </div>
+    <article class="row contenedorDiseñosRecientes">
+        <div class="col-1"><!-- espacio --></div>
+
+        <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 caja diseñosRecientes">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cajaDiseñosRecientes">
+                    <img src="images/yeonaissance.jpg" alt="" class="fotoDiseñosRecientes">
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 textoDiseñosRecientes">
+                    <p><strong>“Renaissance”</strong></p>
+                    <p>Hecha en junio del 2024 en photoshop, foto montaje inspirado en las obras del renacimiento.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-2"><!-- espacio --></div>
+        
+        <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 diseñosRecientes">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 cajaDiseñosRecientes">
+                    <img src="images/Hongjoongunderwater.jpg" alt="" class="fotoDiseñosRecientes">
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 textoDiseñosRecientes">
+                    <p><strong>“Underwater”</strong></p>
+                    <p>Hecha en junio del 2024 en photoshop, montaje inspirado en el mundo acuático.</p></div>
+            </div>
+        </div>
+
+        <div class="col-1 espacioDiseñosRecientes"><!-- espacio< --></div>
+    </article>
+    
+<!----------------- FOOTER ------------------->
+
+    <footer class="row cajaFooter">
+            <div class="col-12 footer">
+                PORTAFOLIO | CAROL NATALIA GUTIÉRREZ | PRODUCCIÓN MULTIMEDIA | 2024
+            </div>
+    </footer>
+    
+
+<!----------------- BOOTSTRAP ------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!----------------- BOOTSTRAP ------------------->
+
+  </body>
+</html>
