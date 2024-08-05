@@ -12,7 +12,7 @@ body {
 }
 
 @font-face {
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     src: url(/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
@@ -116,6 +116,17 @@ body {
 }
 
 .imagenTitulo:hover {
+    filter: brightness(150%);
+    height: 205px;
+    transition: 0.5s;
+}
+
+.imagenTitulo2 {
+    height: 200px;
+    animation: animacionTitulo 1s;
+}
+
+.imagenTitulo2:hover {
     filter: brightness(150%);
     height: 205px;
     transition: 0.5s;
@@ -300,7 +311,7 @@ body {
     align-items: center;
     justify-content: end;
     color: white;
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     padding-top: 20px;
 }
 
@@ -323,7 +334,7 @@ body {
 .descripcionTrabajo {
 /*     height: 300px; */
     color: white;
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     display: flex;
     align-items: top;
     justify-content: center;
@@ -407,7 +418,7 @@ body {
 
 .tituloRedes {
     color: white;
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     padding-bottom: 20px;
     font-size: larger;
@@ -421,7 +432,7 @@ body {
 
 .textoRedes{
     color: white;
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     text-align: left;
     text-align: center;
 }
@@ -463,7 +474,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 60px;
+    height: 100px;
     filter: brightness(90%) saturate(50%);
 
     color: rgb(255, 255, 255);
@@ -477,6 +488,240 @@ body {
 
 
 /*------------------------ MEDIA QUERIES ------------------------ */
+
+@media only screen and (max-width: 576px) {
+
+    .contenedorHeader{
+        padding: 0 0 0 0;
+    }
+
+
+    .imagenMenu{
+        width: 30px;
+    }
+
+    .imagenMenu:hover {
+        transition: 0.5s;
+        width: 35px;
+    }
+
+
+    .imagenLogo {
+        width: 30px;
+    }
+
+    .imagenLogo:hover {
+        transition: 0.5s;
+        width: 35px;
+    }
+
+    .hola {
+        height: 200px;
+    
+    }
+
+    .imagenTitulo {
+        height: 40%;
+        animation: animacionTitulo 1s;
+    }
+
+    .imagenTitulo:hover {
+        filter: brightness(150%);
+        height: 41%;
+        transition: 0.5s;
+    }
+
+    .imagenTitulo2 {
+        height: 30%;
+        animation: animacionTitulo 1s;
+    }
+
+    .imagenTitulo2:hover {
+        filter: brightness(150%);
+        height: 31%;
+        transition: 0.5s;
+    }
+
+    .introduccionTexto {
+        font-size: medium;
+        line-height: 20px
+    }
+
+    .cajaTituloDiseñosRecientes {
+        padding: 20px 0 0 0;
+    }
+    
+    .tituloDiseñosRecientes {
+        color: white;
+        font-size: small;
+    }
+    
+    .contenedorDiseñosRecientes {
+        padding-top: 0;
+    }
+
+    .diseñosRecientes {
+        border-width: 1px;
+        margin-right: 20px;
+    }
+        
+    .textoDiseñosRecientes {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        font-size: small;
+        align-content: center;
+    } 
+
+    .footer {
+        background-image: url(/images/liquid.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 200%;
+        filter: brightness(90%) saturate(50%);
+        font-size: 6px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+    }
+
+    .textoSobreMi {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        text-align: justify;
+        font-size: small;
+    }
+    
+    .tituloSobreMi {
+        height: 50px;
+        padding: 0 0 30px 0;
+        font-size: medium;
+    }
+    
+    .cajaMenuPortafolio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .botonesPortafolio {
+        font-size: small;
+    }
+
+    .tituloSeccionesPortafolio {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        font-size: large;
+        padding: 0 0 20px 0;
+    }
+
+    .imagenBotonSubirPortafolio {
+        display: none;
+    }
+
+    .desaparecerCaja {
+        display: none;
+    }
+
+    .tituloSeccionesPortafolio {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        font-size: large;
+    }
+    
+    .textoTituloTrabajo {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        padding-top: 20px;
+    }
+    
+    .textoTituloTrabajoProyecto {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg)
+    }
+    
+    .cajaFotoTrabajo {
+    /*     background-color: yellowgreen; */
+        height: 280px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fotoTrabajo {
+        padding: 20px 0 10px 0;
+    }
+    
+    .descripcionTrabajo {
+        font-size: small;
+    }
+    
+    .procesoTrabajo {
+    /*     background-color: violet; */
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .videoEdit {
+        width: 230px;
+    }
+
+    .fotoArticulo {
+        height: 170px;
+    }
+
+    .textoArticulo{
+        font-size: small;
+    }
+
+    .cajaRedesSociales {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0 0 0;
+        border: solid 1px white;
+        margin: 10px 0 0 0;
+    }
+    
+    .tituloRedes {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: large;
+    }
+    
+    .cajaTextoRedes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .textoRedes{
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        text-align: left;
+        text-align: center;
+    }
+    
+    .cajaIconosRedes {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .iconoRedes {
+        height: 70px;
+        padding: 10px 0 10px 0;
+    }
+
+}
 
 @media (min-width: 0px) and (max-width: 576px) {
     .cajaVideoTrabajo {
@@ -498,18 +743,36 @@ body {
         width: 40px;
     }
 
+    .imagenMenu:hover {
+        width: 45px;
+    }
+
+    .imagenLogo:hover {
+        width: 45px;
+    }
+
     .imagenLogo{
         width: 40px;
     }
 
     .imagenTitulo {
         width: 530px;
-        height: 130px;
+        height: 140px;
     }
     
     .imagenTitulo:hover {
         width: 550px;
+        height: 150px;
+    }
+
+    .imagenTitulo2{
+        width: 530px;
         height: 140px;
+    }
+    
+    .imagenTitulo2:hover {
+        width: 550px;
+        height: 150px;
     }
 
     .introduccionTexto {
@@ -566,6 +829,64 @@ body {
     .textoArticulo{
         padding-top: 10px;
     }
+
+    .tituloSeccionesPortafolio {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: larger;
+    padding: 50px 0 20px 0;
+}
+
+.textoTituloTrabajo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 20px;
+}
+
+.textoTituloTrabajoProyecto {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg)
+}
+
+.cajaFotoTrabajo {
+/*     background-color: yellowgreen; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.fotoTrabajo {
+    padding: 20px 0 10px 0;
+}
+
+.descripcionTrabajo {
+/*     height: 300px; */
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    text-align: justify;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.procesoTrabajo {
+/*     background-color: violet; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.videoProceso {
+    padding: 10px 0 10px 0;
+}
 }
 
 /* md */
