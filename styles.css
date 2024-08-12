@@ -574,7 +574,7 @@ body {
     } 
 
     .footer {
-        background-image: url(/images/liquid.jpg);
+        background-image: url(images/liquid.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 200%;
