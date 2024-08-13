@@ -74,6 +74,10 @@ body {
     transition: 1s;
 }
 
+.btn:active {
+    background-color: transparent !important;
+}
+
 .btn-primary {
     background-color: rgba(0, 0, 0, 0);
     border: none;
@@ -95,6 +99,11 @@ body {
 
 .btn-close{
     background-color: rgb(255, 255, 255);
+}
+
+.btn-close:focus{
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 /*------------------------ TÍTULOS ------------------------ */
@@ -329,7 +338,9 @@ body {
 
 .fotoTrabajo {
     padding: 20px 0 10px 0;
+    animation-iteration-count: infinite;
 }
+
 
 .descripcionTrabajo {
 /*     height: 300px; */
@@ -365,6 +376,8 @@ body {
 
 .videoEdit {
     padding: 10px 0 10px 0;
+    animation-iteration-count: infinite;
+    height: 400px;
 }
 
 .espacioEntreTrabajos{
@@ -891,7 +904,7 @@ body {
 
 /* md */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .botonesPortafolio {
         font-size: x-large;
         margin: 0 10px 0 10px;
@@ -906,9 +919,22 @@ body {
     .videoEdit {
         height: 280px;
     }
+
 }
 
 /* lg */
+
+@media (min-width: 768px) and (max-width: 1000px){
+    .imagenTitulo2{
+        width: 600px;
+        height: 140px;
+    }
+    
+    .imagenTitulo2:hover {
+        width: 620px;
+        height: 150px;
+    }
+}
 
 @media (min-width: 992px) {
 
