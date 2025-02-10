@@ -32,13 +32,13 @@ body {
 }
 
 .imagenLogo{
-    width: 50px;
+    width: 120px;
 }
 
 .imagenLogo:hover {
     filter: brightness(150%);
     transition: 0.5s;
-    width: 55px;
+    width: 122px;
 }
 
 .menu {
@@ -343,6 +343,10 @@ body {
         justify-content: center;
     }
 
+    a {
+        text-decoration: none !important;
+    }
+
 .fotoTrabajo {
     padding: 20px 0 10px 0;
     animation-iteration-count: infinite;
@@ -368,7 +372,7 @@ body {
     text-align: justify;
     padding-bottom: 20px;
     padding-top: 20px;
-    text-decoration: none;
+    text-decoration-line: none;
 }
 
 .procesoTrabajo {
@@ -537,12 +541,12 @@ body {
 
 
     .imagenLogo {
-        width: 30px;
+        width: 60px;
     }
 
     .imagenLogo:hover {
         transition: 0.5s;
-        width: 35px;
+        width: 65px;
     }
 
     .hola {
@@ -681,6 +685,13 @@ body {
         display: flex;
         justify-content: center;
     }
+
+    .cajaFotoTrabajo2 {
+        /*     background-color: yellowgreen; */
+            height: 230px;
+            display: flex;
+            justify-content: center;
+        }
     
     .fotoTrabajo {
         padding: 20px 0 10px 0;
@@ -778,11 +789,12 @@ body {
     }
 
     .imagenLogo:hover {
-        width: 45px;
+        width: 100px;
     }
 
     .imagenLogo{
-        width: 40px;
+        width: 98px;
+        padding: 0 0 0 3vw;
     }
 
     .imagenTitulo {
@@ -889,6 +901,13 @@ body {
     justify-content: center;
 }
 
+.cajaFotoTrabajo2 {
+    /*     background-color: yellowgreen; */
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+
 .fotoTrabajo {
     padding: 20px 0 10px 0;
 }
@@ -932,6 +951,13 @@ body {
         display: flex;
         justify-content: center;
     }
+
+    .cajaFotoTrabajo2 {
+        /*     background-color: yellowgreen; */
+            height: 220px;
+            display: flex;
+            justify-content: center;
+        }
 
     .videoEdit {
         height: 280px;
