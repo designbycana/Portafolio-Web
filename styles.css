@@ -336,22 +336,39 @@ body {
     justify-content: center;
 }
 
+.cajaFotoTrabajo2 {
+    /*     background-color: yellowgreen; */
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
 .fotoTrabajo {
     padding: 20px 0 10px 0;
     animation-iteration-count: infinite;
 }
 
-
 .descripcionTrabajo {
 /*     height: 300px; */
     color: white;
     font-family: "Montserrat", sans-serif;
-    display: flex;
+
     align-items: top;
     justify-content: center;
     text-align: justify;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.textofichatecnica{
+    color: #a1ff25;
+    font-family: "Montserrat", sans-serif;
+    align-items: top;
+    justify-content: center;
+    text-align: justify;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-decoration: none;
 }
 
 .procesoTrabajo {
