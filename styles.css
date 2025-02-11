@@ -410,7 +410,6 @@ body {
 /*------------------------ ARTICULOS BLOG ------------------------ */
 
 .contenedorArticulo{
-/*     background-color: bisque; */
     border: solid 1px white;
     align-items: center;
     justify-content: center;
@@ -436,8 +435,61 @@ body {
 }
 
 .fotoArticulo {
-    height: 300px;
+    height: 20vw;
 }
+
+.fotoArticulo:hover {
+    filter: brightness(120%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+
+/*------------------------ ARTICULOS INDIVIDUALES ------------------------ */
+
+.cajaarticulo{
+/*     background-color: aqua; */
+    justify-items: center;
+}
+
+.tituloarticulo {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.textoarticuloindividual{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    font-size: large;
+}
+
+.imagenesarticulo {
+    width: 50vw;
+    margin: 2vw 0 4vw 0;
+    border: white 1px solid;
+}
+
+.titulomasarticulos {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: large;
+    padding: 2vw 0 2vw 0;
+}
+
+.linea {
+    width: 65%;
+    margin: auto;
+    border: none;
+    opacity: 100%;
+    height: 0.5px;
+    background-color: rgb(255, 255, 255);
+  }
+
+
 
 /*------------------------ CONTACTO ------------------------ */
 
